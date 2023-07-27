@@ -13,9 +13,9 @@ class HomeController extends AbstractController
     {
             // manipuler les données + logique métier
 
-            
+
         return $this->render('home/index.html.twig', [
-            'controller_name' => 'HomeController',
+            'controller_name' => 'Anthony',
         ]);
     }
 }
